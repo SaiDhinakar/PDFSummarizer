@@ -59,7 +59,7 @@ To run this project, you'll need to have the following installed:
 │   ├── index.html         # Home page for uploading PDFs
 │   └── summary.html       # Page for displaying summarized PDF
 ├── /static                # CSS, JavaScript, and other static files
-├── /summarizer_           # Custom Python module for PDF summarization
+├── /summarizer_.py        # Custom Python module for PDF summarization
 ├── requirements.txt       # List of Python dependencies
 └── README.md              # This file
 ```
