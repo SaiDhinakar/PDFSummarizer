@@ -93,10 +93,3 @@ The application uses SQLAlchemy and SQLite to manage the following models:
 2. **Viewing Summary**: Once the PDF is summarized, users will be redirected to a page where the summary is displayed.
 3. **Downloading Summary**: The summary can be downloaded in text (`.txt`) or PDF (`.pdf`) format by clicking the respective download buttons.
 
-## Future Improvements
-
-- Add password hashing for user authentication for better security.
-- Enhance PDF summarization capabilities.
-- Provide more detailed analytics on file uploads and summarizations.
-- Implement user roles and permissions for additional functionality.
-
