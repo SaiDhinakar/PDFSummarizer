@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDF Summarizer</title>
+    <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+    <h1>Upload a PDF to Summarize</h1>
+    <form id="uploadForm" action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" required>
+        <button type="submit">Upload and Summarize</button>
+    </form>
+    <div id="progress-container" style="display: none;">
+        <p>Uploading...</p>
+        <div class="loader"></div>
+    </div>
+
+    <script>
+        const form = document.getElementById("uploadForm");
+        const progressContainer = document.getElementById("progress-container");
+
+        form.addEventListener("submit", () => {
+            form.style.display = "none";
+            progressContainer.style.display = "block";
+        });
+    </script>
+</body>
+</html>
