@@ -89,10 +89,9 @@ The application uses SQLAlchemy and SQLite to manage the following models:
 
 ## Usage
 
-1. **User Authentication**: Before uploading a PDF, users must log in. The app uses a simple authentication system to verify users.
-2. **Uploading PDFs**: After logging in, users can upload PDF files, which will be processed and summarized.
-3. **Viewing Summary**: Once the PDF is summarized, users will be redirected to a page where the summary is displayed.
-4. **Downloading Summary**: The summary can be downloaded in text (`.txt`) or PDF (`.pdf`) format by clicking the respective download buttons.
+1. **Uploading PDFs**: After logging in, users can upload PDF files, which will be processed and summarized.
+2. **Viewing Summary**: Once the PDF is summarized, users will be redirected to a page where the summary is displayed.
+3. **Downloading Summary**: The summary can be downloaded in text (`.txt`) or PDF (`.pdf`) format by clicking the respective download buttons.
 
 ## Future Improvements
 
