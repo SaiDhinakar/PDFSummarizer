@@ -25,7 +25,7 @@ To run this project, you'll need to have the following installed:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/SaiDhinakar/PDFSummarizer.git
-   cd pdf-summarizer-flask
+   cd PDFSummarizer
    ```
 
 2. **Create a virtual environment** (optional but recommended):
@@ -89,7 +89,7 @@ The application uses SQLAlchemy and SQLite to manage the following models:
 
 ## Usage
 
-1. **Uploading PDFs**: After logging in, users can upload PDF files, which will be processed and summarized.
+1. **Uploading PDFs**: Users can upload PDF files, which will be processed and summarized.
 2. **Viewing Summary**: Once the PDF is summarized, users will be redirected to a page where the summary is displayed.
 3. **Downloading Summary**: The summary can be downloaded in text (`.txt`) or PDF (`.pdf`) format by clicking the respective download buttons.
 
